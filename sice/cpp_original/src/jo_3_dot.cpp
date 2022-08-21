@@ -1,0 +1,22 @@
+/******************************************************************************
+ *                      Code generated with SymPy 1.10.1                      *
+ *                                                                            *
+ *              See http://www.sympy.org/ for more information.               *
+ *                                                                            *
+ *                 This file is part of 'jo_3_dot_BY_SYMPY_'                  *
+ ******************************************************************************/
+#include "jo_3_dot.h"
+#include <math.h>
+
+void jo_3_dot(double *dq, double l1, double l2, double l3, double *q, double *out_8228130263717372812) {
+
+   out_8228130263717372812[0] = -l1*cos(q[0])*dq[0] + l2*sin(q[0])*sin(q[1])*dq[0] + l2*sin(q[0])*sin(q[1])*dq[1] - l2*cos(q[0])*cos(q[1])*dq[0] - l2*cos(q[0])*cos(q[1])*dq[1] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[0] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[1] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[2] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[0] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[1] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[2] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[0] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[1] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[2] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[0] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[1] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[2];
+   out_8228130263717372812[1] = l2*sin(q[0])*sin(q[1])*dq[0] + l2*sin(q[0])*sin(q[1])*dq[1] - l2*cos(q[0])*cos(q[1])*dq[0] - l2*cos(q[0])*cos(q[1])*dq[1] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[0] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[1] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[2] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[0] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[1] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[2] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[0] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[1] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[2] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[0] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[1] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[2];
+   out_8228130263717372812[2] = l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[0] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[1] + l3*sin(q[0])*sin(q[1])*cos(q[2])*dq[2] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[0] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[1] + l3*sin(q[0])*sin(q[2])*cos(q[1])*dq[2] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[0] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[1] + l3*sin(q[1])*sin(q[2])*cos(q[0])*dq[2] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[0] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[1] - l3*cos(q[0])*cos(q[1])*cos(q[2])*dq[2];
+   out_8228130263717372812[3] = 0;
+   out_8228130263717372812[4] = -l1*sin(q[0])*dq[0] - l2*sin(q[0])*cos(q[1])*dq[0] - l2*sin(q[0])*cos(q[1])*dq[1] - l2*sin(q[1])*cos(q[0])*dq[0] - l2*sin(q[1])*cos(q[0])*dq[1] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[0] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[1] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[2] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[0] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[1] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[2] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[0] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[1] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[2] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[0] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[1] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[2];
+   out_8228130263717372812[5] = -l2*sin(q[0])*cos(q[1])*dq[0] - l2*sin(q[0])*cos(q[1])*dq[1] - l2*sin(q[1])*cos(q[0])*dq[0] - l2*sin(q[1])*cos(q[0])*dq[1] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[0] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[1] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[2] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[0] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[1] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[2] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[0] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[1] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[2] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[0] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[1] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[2];
+   out_8228130263717372812[6] = l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[0] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[1] + l3*sin(q[0])*sin(q[1])*sin(q[2])*dq[2] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[0] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[1] - l3*sin(q[0])*cos(q[1])*cos(q[2])*dq[2] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[0] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[1] - l3*sin(q[1])*cos(q[0])*cos(q[2])*dq[2] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[0] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[1] - l3*sin(q[2])*cos(q[0])*cos(q[1])*dq[2];
+   out_8228130263717372812[7] = 0;
+
+}
