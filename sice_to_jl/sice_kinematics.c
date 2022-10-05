@@ -271,3 +271,8 @@ void jry_dot(int n, double *q, double* q_dot, double l1, double l2, double l3, d
         break;
     }
 }
+
+
+int main(){
+    return 0;
+}

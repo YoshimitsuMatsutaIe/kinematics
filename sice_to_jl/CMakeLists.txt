@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
-project(main)
+project(sice_kinematics)
 set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_FLAGS "-Wall")
+set(CMAKE_CXX_FLAGS "-Wall" "-O2")
 
 
 add_library(mine SHARED sice_kinematics.c)
@@ -13,4 +13,5 @@ add_executable(
     sice_kinematics sice_kinematics.c
     ${SRC_}
 )
-#target_compile_options(sice_kinematics -O2)
+
+target_link_libraries(sice_kinematics m)
