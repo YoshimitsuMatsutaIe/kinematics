@@ -11,3 +11,5 @@ def jrz_2(q):
     return numpy.array([[numpy.sin(q[0, 0]), 0, 0], [-numpy.cos(q[0, 0]), 0, 0], [0, 0, 0]])
 def jrz_3(q):
     return numpy.array([[numpy.sin(q[0, 0]), 0, 0], [-numpy.cos(q[0, 0]), 0, 0], [0, 0, 0]])
+def jrz_4(q):
+    return numpy.array([[numpy.sin(q[0, 0]), 0, 0], [-numpy.cos(q[0, 0]), 0, 0], [0, 0, 0]])

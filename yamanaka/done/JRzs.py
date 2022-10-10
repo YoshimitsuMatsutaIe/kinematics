@@ -11,3 +11,5 @@ def jrz_2(q):
     return np.array([[s(q[0, 0]), 0, 0], [-c(q[0, 0]), 0, 0], [0, 0, 0]])
 def jrz_3(q):
     return np.array([[s(q[0, 0]), 0, 0], [-c(q[0, 0]), 0, 0], [0, 0, 0]])
+def jrz_4(q):
+    return np.array([[s(q[0, 0]), 0, 0], [-c(q[0, 0]), 0, 0], [0, 0, 0]])

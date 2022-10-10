@@ -11,3 +11,5 @@ def jrz_2_dot(q, dq):
     return np.array([[s(q[0, 0]), 0, 0], [-c(q[0, 0]), 0, 0], [0, 0, 0]])
 def jrz_3_dot(q, dq):
     return np.array([[s(q[0, 0]), 0, 0], [-c(q[0, 0]), 0, 0], [0, 0, 0]])
+def jrz_4_dot(q, dq):
+    return np.array([[s(q[0, 0]), 0, 0], [-c(q[0, 0]), 0, 0], [0, 0, 0]])
